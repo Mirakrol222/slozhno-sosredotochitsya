@@ -132,12 +132,14 @@
   font-family: 'IBM Plex Mono', sans-serif;
   font-size: 18px;
   line-height: 23.4px;
+  padding-block-end: 20px;
 }
 
 .main__title-section {
   display: block;
   font-family: 'IBM Plex Mono', sans-serif;
   line-height: 23.4px;
+  margin-block-end: 10px;
 }
 
 .main__text {
@@ -147,6 +149,7 @@
   font-weight: 400;
   font-size: 18px;
   line-height: 23.4px;
+  margin-block-end: 20px;
 }
 
 .main__link {
@@ -214,10 +217,6 @@
 }
 
 @media (768px <= width < 1024px) {
-    .header {
-        
-    }
-
     .header__theme-menu-list {
       padding-inline-end: 10px;
     }
