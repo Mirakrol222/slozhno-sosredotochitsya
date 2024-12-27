@@ -1,9 +1,3 @@
-/*
-  Специально для светлой темы при наличии класса.
-  Здесь окажутся стили, которые нужно переопределить принудительно,
-  переключая тему
-*/
-
 .page.theme_light {
   --accent-color: #FF8DCB;
   --main-bg-color: #FFF1F7;
@@ -20,12 +14,6 @@
 .theme_light .header__rec {
   display: none;
 }
-
-:root.theme-light {
-  /* Переменные светлой темы */
-}
-
-/* Остальные стили */
 
 @media (prefers-color-scheme: light) {
   :root {
@@ -47,5 +35,3 @@
     display: none;
   }
 }
-
-/* Остальные стили */ 
