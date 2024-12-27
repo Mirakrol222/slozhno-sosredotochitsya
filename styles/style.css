@@ -239,6 +239,12 @@
     margin-block-end: 80px;
   }
 
+  .main__text-block {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
   .main__title {
     padding: 0;
   }
@@ -271,6 +277,12 @@
 
   .title-area {
     grid-area: 1 / 1 / 3 / 2;
+  }
+
+  .main__second-section {
+    display: flex;
+    flex-direction: column;
+    gap: 20px
   }
 
   .title-area-second-section {
@@ -353,6 +365,12 @@
     margin-block-end: 80px;
   }
 
+  .main__text-block {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
   .main__title {
     padding: 0;
   }
@@ -375,7 +393,7 @@
   .main__text {
     margin: 0;
   }
-  
+
   .main__first-section {
     display: grid;
     grid-template-columns: 1fr 2fr;
