@@ -113,7 +113,7 @@
   text-shadow: 4px 4px 0 var(--accent-color);
 }
 
-.title__text {
+.header__title-text {
   justify-self: end;
   align-self: center;
   max-width: 364px;
@@ -235,6 +235,10 @@
     font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
   }
 
+  .header__title-text {
+    margin-inline-end: 20px;
+  }
+
   .main__section {
     margin-block-end: 80px;
   }
@@ -329,6 +333,10 @@
     grid-area: street;
   }
 
+  .footer {
+    margin-block-start: 60px;
+  }
+
   .footer__title {
     font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
   }
@@ -357,7 +365,8 @@
     font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
   }
 
-  .title__text {
+  .header__title-text {
+    margin-inline-end: 20px;
     max-width: 491px;
   }
 
@@ -463,6 +472,10 @@
   
   .street {
     grid-area: street;
+  }
+
+  .footer {
+    margin-block-start: 60px;
   }
 
   .footer__title {
