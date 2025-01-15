@@ -167,7 +167,6 @@
   text-shadow: 2px 2px var(--accent-color);
 }
 
-
 .main__link:focus {
   outline: none;
 }
@@ -223,7 +222,6 @@
   line-height: 0.825;
   text-shadow: 2px 2px 0 var(--accent-color);
 }
-
 
 @media (width > 767px) {
 
