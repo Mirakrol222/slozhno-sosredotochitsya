@@ -38,8 +38,8 @@
   border-block-end: 1px solid var(--nav-color);
   inline-size: 25px;
   block-size: 25px;
-  inset-inline-start: 20px;
-  inset-block-end: 20px;
+  inset-inline-start: 2px;
+  inset-block-end: 2px;
 }
 
 .header__rec {
